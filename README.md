@@ -12,6 +12,12 @@ The focus is educational and measurement-driven. Examples are designed to make i
 
 ![Architecture of running local LLMs with MLX LM](assets/mlx-lm-architecture.png)
 
+## Tutorials
+
+| Tutorial | Article | Code |
+| --- | --- | --- |
+| **Why MLX for Local LLMs?** | [Read the tutorial](https://theaiops.substack.com/p/why-mlx-for-local-llms) | — |
+
 ## License
 
 This tutorial is licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](LICENSE.md).
