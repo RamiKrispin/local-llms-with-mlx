@@ -1,0 +1,15 @@
+[project]
+name = "local-llms-with-mlx"
+version = "0.1.0"
+description = "Hands-on tutorials for running local LLMs on Apple silicon with MLX LM"
+readme = "README.md"
+authors = [
+    { name = "Rami Krispin" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "mlx-lm==0.31.3",
+]
+
+[tool.uv]
+package = false
