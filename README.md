@@ -17,6 +17,7 @@ The focus is educational and measurement-driven. Examples are designed to make i
 | Tutorial | Article | Code |
 | --- | --- | --- |
 | **Why MLX for Local LLMs?** | [Read the tutorial](https://theaiops.substack.com/p/why-mlx-for-local-llms) | — |
+| **Getting started with MLX LM** | — | [Supporting code](tutorials/02-getting-started-with-mlx-lm/) |
 
 ## License
 
