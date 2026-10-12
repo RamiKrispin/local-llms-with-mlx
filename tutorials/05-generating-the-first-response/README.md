@@ -1,11 +1,11 @@
 # Generating the first response
 
-This folder contains the supporting code for Tutorial 4 of the Local LLMs with
+This folder contains the supporting code for Tutorial 5 of the Local LLMs with
 MLX series.
 
 **Full tutorial:** [Link will be added after publication](TUTORIAL_URL)
 
-This example loads the model selected in Tutorial 3, formats a chat request,
+This example loads the model selected in Tutorial 4, formats a chat request,
 and generates a response through the MLX LM CLI and Python API. The Python
 script streams output and reports prompt throughput, generation throughput,
 and peak MLX memory.
@@ -14,7 +14,7 @@ and peak MLX memory.
 
 - An Apple silicon Mac running macOS 14 or newer
 - [`uv`](https://docs.astral.sh/uv/getting-started/installation/)
-- The model snapshot selected in Tutorial 3, already present in the Hugging
+- The model snapshot selected in Tutorial 4, already present in the Hugging
   Face cache
 
 ## Set up the environment
@@ -26,7 +26,7 @@ uv sync --locked
 ```
 
 This tutorial uses the model and revision selected and downloaded in Tutorial
-3:
+4:
 
 ```text
 Model:    mlx-community/Qwen2.5-0.5B-Instruct-4bit
@@ -48,14 +48,14 @@ uv run mlx_lm.generate \
 
 By default, MLX LM prints the response and timing information. The CLI uses
 the model repository from the local Hugging Face cache when it is available.
-The Python example below passes the exact revision selected in Tutorial 3.
+The Python example below passes the exact revision selected in Tutorial 4.
 
 ## Run the streaming Python example
 
 Run the script from the repository root:
 
 ```bash
-uv run python tutorials/04-generating-the-first-response/first_response.py \
+uv run python tutorials/05-generating-the-first-response/first_response.py \
   --prompt "Give a two-sentence explanation of MLX LM." \
   --max-tokens 64
 ```
@@ -77,7 +77,7 @@ To receive the complete response after generation rather than streamed text,
 choose the script's `generate` mode:
 
 ```bash
-uv run python tutorials/04-generating-the-first-response/first_response.py \
+uv run python tutorials/05-generating-the-first-response/first_response.py \
   --prompt "Give a two-sentence explanation of MLX LM." \
   --max-tokens 64 \
   --mode generate
@@ -93,13 +93,13 @@ Pass a different prompt with `--prompt` and, when needed, a system instruction
 with `--system-prompt`:
 
 ```bash
-uv run python tutorials/04-generating-the-first-response/first_response.py \
+uv run python tutorials/05-generating-the-first-response/first_response.py \
   --system-prompt "Answer clearly and use no more than three sentences." \
   --prompt "What is a context window?" \
   --max-tokens 96
 ```
 
-The default model ID and revision reproduce the Tutorial 3 selection. To try a
+The default model ID and revision reproduce the Tutorial 4 selection. To try a
 different local or Hub model, pass both `--model` and, when reproducibility
 matters, `--revision`. Ensure that the model has a chat template before relying
 on `apply_chat_template`.

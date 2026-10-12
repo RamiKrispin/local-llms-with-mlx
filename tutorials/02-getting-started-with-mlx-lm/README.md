@@ -3,7 +3,7 @@
 This folder contains the supporting code for Tutorial 2 of the Local LLMs with
 MLX series.
 
-**Full tutorial:** [Link will be added after publication](TUTORIAL_URL)
+**Full tutorial:** [Getting started with MLX LM](https://theaiops.substack.com/p/getting-started-with-mlx-lm)
 
 The example creates the project environment, downloads a small MLX model, runs
 the MLX LM server, and sends one chat-completion request.

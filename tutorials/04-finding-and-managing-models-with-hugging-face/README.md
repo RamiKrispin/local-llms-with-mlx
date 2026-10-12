@@ -1,6 +1,6 @@
 # Finding and managing models with Hugging Face
 
-This folder contains the supporting code for Tutorial 3 of the Local LLMs with
+This folder contains the supporting code for Tutorial 4 of the Local LLMs with
 MLX series.
 
 **Full tutorial:** [Link will be added after publication](TUTORIAL_URL)
