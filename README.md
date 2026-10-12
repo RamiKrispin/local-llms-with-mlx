@@ -14,12 +14,14 @@ The focus is educational and measurement-driven. Examples are designed to make i
 
 ## Tutorials
 
-| Tutorial | Description | Article | Code |
+| Tutorial | Description | Tutorial | Code |
 | --- | --- | --- | --- |
 | **Why MLX for Local LLMs?** | Learn why MLX and MLX LM are a practical foundation for running language models locally on Apple silicon. The tutorial introduces their role in local inference and the advantages of Apple’s unified-memory architecture. | [Read the tutorial](https://theaiops.substack.com/p/why-mlx-for-local-llms) | — |
-| **Getting started with MLX LM** | Set up an MLX LM project, download a small instruction-tuned model, and start a local server. Then send your first chat-completion request to verify the setup. | — | [Supporting code](tutorials/02-getting-started-with-mlx-lm/) |
-| **Finding and managing models with Hugging Face** | Find MLX-compatible models on Hugging Face and inspect them before downloading. Learn to pin revisions, verify cached snapshots, work offline, and preview cache cleanup safely. | — | [Supporting code](tutorials/03-finding-and-managing-models-with-hugging-face/) |
-| **Generating the first response** | Generate a response with the MLX LM CLI and Python API using a locally cached model. Follow the path from chat formatting and tokenization to streamed output, throughput, and memory metrics. | — | [Supporting code](tutorials/04-generating-the-first-response/) |
+| **Getting started with MLX LM** | Set up an MLX LM project, download a small instruction-tuned model, and start a local server. Then send your first chat-completion request to verify the setup. | [Read the tutorial](https://theaiops.substack.com/p/getting-started-with-mlx-lm) | [Supporting code](tutorials/02-getting-started-with-mlx-lm/) |
+| **Understanding local LLM models** | Learn what model names, variants, parameter counts, instruction tuning, quantization, and compatibility reveal before comparing repositories. | — | — |
+| **Finding and managing models with Hugging Face** | Find MLX-compatible models on Hugging Face and inspect them before downloading. Learn to pin revisions, verify cached snapshots, work offline, and preview cache cleanup safely. | — | [Supporting code](tutorials/04-finding-and-managing-models-with-hugging-face/) |
+| **Generating the first response** | Generate a response with the MLX LM CLI and Python API using a locally cached model. Follow the path from chat formatting and tokenization to streamed output, throughput, and memory metrics. | — | [Supporting code](tutorials/05-generating-the-first-response/) |
+| **Sampling and reproducibility** | Compare the same prompt under greedy and sampled decoding profiles, then use a seed to make quality experiments easier to repeat. | — | [Supporting code](tutorials/06-sampling-and-reproducibility/) |
 
 ## License
 
